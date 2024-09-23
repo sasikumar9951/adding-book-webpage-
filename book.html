@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ranyas-Books</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <h1>Ranyas</h1>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Product</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+      </nav>
+    </div>
+    <div class="container">
+      <div class="containerbox">
+        <h2>The marvels</h2>
+        <h3>-Nia DaCosta</h3>
+        <p>
+          In "The Marvels," Ms. Marvel, Captain Marvel, and Monica Rambeau unite
+          to confront a cosmic threat. As their powers intertwine, they navigate
+          personal challenges and the complexities of heroism, discovering the
+          importance of teamwork, identity, and friendship in the process.
+        </p>
+        <button onclick="saya(event)">Delete</button>
+      </div>
+      <button id="btn">+</button>
+    </div>
+    <div class="overlay"></div>
+    <div class="addbook">
+      <h1>Add book</h1>
+      <form>
+        <input type="text" placeholder="Bookname" id="bookname" />
+        <input type="text" placeholder="Authorname" id="author" />
+        <textarea placeholder="Description" id="describe"></textarea>
+        <button id="add">Add</button>
+        <button id="cancel">cancel</button>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
