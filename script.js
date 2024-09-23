@@ -36,7 +36,7 @@ add.addEventListener("click",function(event){
     
 
 })
-function saya(event){
+function rem(event){
     event.target.parentElement.remove()
 }
 
